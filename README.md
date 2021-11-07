@@ -24,5 +24,5 @@ TODO
  
 hdr skys: https://polyhaven.com/
 
-Thanks Bekir Ozturk from  Microsoft for enlightening me about  "Marshal.PtrToStructure" enlighment (bekir_ozturk@yahoo.com )
+Thanks my friend Bekir Ozturk from  Microsoft for enlightening me about "Marshal.PtrToStructure" enlighment (bekir_ozturk@yahoo.com )
  
