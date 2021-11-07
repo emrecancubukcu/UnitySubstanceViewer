@@ -5,10 +5,20 @@ The code basically takes all the inputs from the sbsar file and automatically cr
 
 Unity version: 2020.1.9f1
 
+USAGE 
+1) Copy sbsar file to projects/assets folder
+2) open mainlevel
+3) drag&drop sbsar graph to plane subtanceviewer scripts's "mysubstance" slot
+4) drag&drop sbsar graph to plane's material
+5) and play! 
+
+
+
 TODO
 - some input types not implemented
 - more test
 - more beautiful method for importing presets
+- more acceptable color picker
  
  
  
