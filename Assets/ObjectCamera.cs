@@ -18,8 +18,8 @@ public class ObjectCamera : MonoBehaviour
 
     private void Reset()
     {
-        _y = 89.9f;
-        _x = 180;
+        _y = 13f;
+        _x = 115;
         _distance = 2.3f;
         _target = new Vector3(0.0f, 0f, 0.0f);
     }
@@ -103,7 +103,7 @@ public class ObjectCamera : MonoBehaviour
         // _distance = Mathf.Min(Mathf.Abs(Input.GetAxis("Mouse ScrollWheel")), MaxToClamp - Mathf.Abs(ZoomAmount));
 
         var rotation = Quaternion.Euler(_y, _x, 0f);
-        var position = rotation * new Vector3(-0.75f, 0f, -_distance) + _target;
+        var position = rotation * new Vector3(-0.5f, 0f, -_distance) + _target;
         transform.rotation = rotation;
         transform.position = position+new Vector3(0.0f,0,0);
     }

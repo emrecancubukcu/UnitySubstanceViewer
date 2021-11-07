@@ -16,14 +16,7 @@ ScriptedImporter:
     graphDescIndex: 0
     generateAllOutputs: 0
     generateMipMaps: 1
-    preset: " <sbspreset pkgurl=\"pkg://New_Graph\" label=\"\" >\n  <presetinput
-      identifier=\"$outputsize\" uid=\"1526401641\" type=\"8\" value=\"11,11\" />\n 
-      <presetinput identifier=\"aging\" uid=\"892767203\" type=\"0\" value=\"0.18\"
-      />\n  <presetinput identifier=\"input_selection\" uid=\"781174234\" type=\"4\"
-      value=\"4\" />\n  <presetinput identifier=\"scale\" uid=\"781184132\" type=\"0\"
-      value=\"1.22\" />\n  <presetinput identifier=\"border_errors\" uid=\"787001131\"
-      type=\"0\" value=\"0.01\" />\n  <presetinput identifier=\"contour_width\" uid=\"780303160\"
-      type=\"0\" value=\"1.43\" />\n </sbspreset>\n"
+    preset: " <sbspreset pkgurl=\"pkg://New_Graph\" label=\"\" >\n </sbspreset>\n"
     shaderName: Standard
     materialProperties:
       shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
@@ -52,12 +45,12 @@ ScriptedImporter:
         offset: {x: 0, y: 0}
       - name: _EmissionMap
         texture: {instanceID: 0}
-        scale: {x: 1, y: 1}
+        scale: {x: 2, y: 1}
         offset: {x: 0, y: 0}
       - name: _MainTex
         texture: {fileID: 3531699930832850883, guid: 3fd0edc6fa2e683488a196d980c2ecc7,
           type: 3}
-        scale: {x: 1, y: 1}
+        scale: {x: 2, y: 1}
         offset: {x: 0, y: 0}
       - name: _MetallicGlossMap
         texture: {fileID: 830566211860623204, guid: 3fd0edc6fa2e683488a196d980c2ecc7,
