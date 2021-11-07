@@ -1,0 +1,12 @@
+<sbspresets count="1" formatversion="1">
+ <sbspreset label="Pattern 1 slightly " pkgurl="pkg:///New_Graph?dependency=1428218197" usertags="">
+  <presetinput value="0.09" identifier="aging" type="0" uid="1427781707"/>
+  <presetinput value="2" identifier="input_selection" type="4" uid="1319335538"/>
+  <presetinput value="1.8" identifier="scale" type="0" uid="1319329580"/>
+  <presetinput value="6" identifier="color_palette" type="4" uid="1320219394"/>
+  <presetinput value="1" identifier="countour_lines" type="4" uid="1319724863"/>
+  <presetinput value="0.01" identifier="border_errors" type="0" uid="1321475203"/>
+  <presetinput value="1.43" identifier="contour_width" type="0" uid="1320077456"/>
+  <presetinput value="0" identifier="no_color" type="4" uid="1319884030"/>
+ </sbspreset>
+</sbspresets>

@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 3fd0edc6fa2e683488a196d980c2ecc7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 29
+  projectContext: 0
+  mGraphInstanceData:
+  - graphLabel: New_Graph
+    prototypeName: New_Graph
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://New_Graph\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1526401641\" type=\"8\" value=\"11,11\" />\n 
+      <presetinput identifier=\"aging\" uid=\"892767203\" type=\"0\" value=\"0.18\"
+      />\n  <presetinput identifier=\"input_selection\" uid=\"781174234\" type=\"4\"
+      value=\"4\" />\n  <presetinput identifier=\"scale\" uid=\"781184132\" type=\"0\"
+      value=\"1.22\" />\n  <presetinput identifier=\"border_errors\" uid=\"787001131\"
+      type=\"0\" value=\"0.01\" />\n  <presetinput identifier=\"contour_width\" uid=\"780303160\"
+      type=\"0\" value=\"1.43\" />\n </sbspreset>\n"
+    shaderName: Standard
+    materialProperties:
+      shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      shaderKeywords: _MAINTEX _METALLICGLOSSMAP _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP
+      lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
+      texEnvs:
+      - name: _BumpMap
+        texture: {fileID: -4428681996180148168, guid: 3fd0edc6fa2e683488a196d980c2ecc7,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 3531699930832850883, guid: 3fd0edc6fa2e683488a196d980c2ecc7,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {fileID: 830566211860623204, guid: 3fd0edc6fa2e683488a196d980c2ecc7,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {fileID: -2105344006743568590, guid: 3fd0edc6fa2e683488a196d980c2ecc7,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {fileID: -6635210339956795980, guid: 3fd0edc6fa2e683488a196d980c2ecc7,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.02
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+    outputDescList:
+    - outputName: height
+      identifier: height
+      usageName: height
+      channelStr: height
+      label: height
+      usage: 9
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: baseColor
+      identifier: color
+      usageName: baseColor
+      channelStr: baseColor
+      label: color
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: normal
+      identifier: normal
+      usageName: normal
+      channelStr: normal
+      label: Normal
+      usage: 7
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: metallic
+      identifier: metallic
+      usageName: metallic
+      channelStr: metallic
+      label: metallic
+      usage: 34
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: roughness
+      identifier: roughness
+      usageName: roughness
+      channelStr: roughness
+      label: roughness
+      usage: 15
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: ambientOcclusion
+      identifier: ambientOcclusion_1
+      usageName: ambientOcclusion
+      channelStr: ambientOcclusion
+      label: ambientOcclusion
+      usage: 5
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: opacity
+      identifier: opacity
+      usageName: opacity
+      channelStr: opacity
+      label: opacity
+      usage: 2
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: height
+      components:
+      - sourceName: height
+        from: 0
+        to: 3
+    - targetName: baseColor
+      components:
+      - sourceName: opacity
+        from: 0
+        to: 3
+    - targetName: normal
+      components:
+      - sourceName: normal
+        from: 0
+        to: 3
+    - targetName: metallic
+      components:
+      - sourceName: smoothness
+        from: 0
+        to: 3
+    - targetName: roughness
+      components:
+      - sourceName: roughness
+        from: 0
+        to: 3
+    - targetName: ambientOcclusion
+      components:
+      - sourceName: ambientOcclusion
+        from: 0
+        to: 3
+    - targetName: opacity
+      components:
+      - sourceName: opacity
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: New_Graph - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph - opacity
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormatMode: 2
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: -2125774551491969924, guid: 3fd0edc6fa2e683488a196d980c2ecc7,
+      type: 3}
+    generatedTextures:
+    - {fileID: -6635210339956795980, guid: 3fd0edc6fa2e683488a196d980c2ecc7, type: 3}
+    - {fileID: 3531699930832850883, guid: 3fd0edc6fa2e683488a196d980c2ecc7, type: 3}
+    - {fileID: -4428681996180148168, guid: 3fd0edc6fa2e683488a196d980c2ecc7, type: 3}
+    - {fileID: 830566211860623204, guid: 3fd0edc6fa2e683488a196d980c2ecc7, type: 3}
+    - {fileID: -2105344006743568590, guid: 3fd0edc6fa2e683488a196d980c2ecc7, type: 3}
